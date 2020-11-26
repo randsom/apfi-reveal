@@ -6,5 +6,7 @@ git clone ...this-repo...
 cd apfi-reveal
 npm install
 ```
-*run server*
+
+**Démarrer la présentation :**
+
 `npm start`
