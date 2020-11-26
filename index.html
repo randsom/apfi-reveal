@@ -1,40 +1,716 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>Cours APFI - Ingénierie des médias</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/white.css" id="theme" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1 class="r-fit-text">Cours APFI</h1>
+          <h2 class="r-fit-text">Ingénierie des médias</h2>
+        </section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+        <section>
+          <h3><b>Romain Sandoz</b></h3>
+          <p> <b>2017</b></p>
+          <p>👨🏼‍🎓 BSc en Ingénierie des médias</p>
+          <p> <b>since then...</b></p>
+          <p>👨🏻‍💼 Media Engineering Institute (MEI)</p>
+          <p>--------------</p>
+          📱🎮🎥✒
+          <p style="font-style: italic;font-size:18px;">UX / Gamification / Conception d'interface / Création de contenus / Audiovisuel / Podcasts</p>
+        </section>
+        <section>
+          <section data-background-image="./img/im_BG.jpg">
+            <h1 class="r-fit-text">Ingénierie des médias</h1>
+            <h2>Qu'est-ce que c'est ?</h2>
+            <span style="font-style: italic">rappel</span>
+          </section>
+          <section
+            id="fragments"
+            data-background-image="./img/im_BG.jpg"
+            data-background-opacity="0.2"
+          >
+            <h1 class="r-fit-text">Informatique & Interfaces</h1>
+            <p class="fragment">UX/UI design</p>
+            <p class="fragment">Développement web & mobile</p>
+            <p class="fragment">Data visualization</p>
+            <p class="fragment">
+              Architecture web, Infrastructure & déploiement
+            </p>
+          </section>
+          <section
+            id="fragments"
+            data-background-image="./img/im_BG.jpg"
+            data-background-opacity="0.2"
+          >
+            <h1 class="r-fit-text">Marketing & Communication</h1>
+            <p class="fragment">Marketing Digital & E-Commerce</p>
+            <p class="fragment">Production de contenus média</p>
+            <p class="fragment">Évaluation de produits médias</p>
+            <p class="fragment">Recherches UX</p>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+            <aside class="notes">
+              <ul>
+                <li>Ecriture pour le web</li>
+                <li>Analyse de marché</li>
+                <li>TechAV et Print</li>
+                <li>Vente de produit média</li>
+              </ul>
+            </aside>
+          </section>
+          <section
+            id="fragments"
+            data-background-image="./img/im_BG.jpg"
+            data-background-opacity="0.2"
+          >
+            <h1 class="r-fit-text">Gestion de projet & Management</h1>
+            <p class="fragment">Gestion de projet, gestion d'équipe</p>
+            <p class="fragment">Business model, Business plan & Startup</p>
+            <p class="fragment">Évaluation et définition de processus</p>
+            <p class="fragment">Approche systémique</p>
+          </section>
+          <section
+            id="fragments"
+            data-background-image="./img/im_BG.jpg"
+            data-background-opacity="0.2"
+          >
+            <h1 class="r-fit-text">
+              Compétences relationnelles & Culture digitale
+            </h1>
+            <p class="fragment">Veille digitale & sociétale</p>
+            <p class="fragment">Méthodologie de recherche</p>
+            <p class="fragment">
+              Communication interpersonnel & travail en équipe
+            </p>
+            <p class="fragment">Expression, présentation</p>
+            <p class="fragment">Droit & éthique</p>
+          </section>
+        </section>
+
+        <section
+          data-background-iframe="https://www.mentimeter.com/s/32beb1753214111deac706b9d00d5b62/8bc45ea906a4"
+          data-preload
+          data-background-interactive
+        ></section>
+
+        <section
+          data-background-image="./img/im_BG.jpg"
+          data-background-opacity="0.2"
+        >
+          <section>
+            <h1>Retrospective</h1>
+            <h1>🌐</h1>
+          </section>
+
+          <section>
+            <h1 class="r-fit-text">1958 - Le premier modem</h1>
+            <h1>📡</h1>
+            <img src="./img/bell-101.jpg" width="30%" />
+            <aside class="notes">
+              <p>Par les laboratoires Bell</p>
+              <p>10 charactères par secondes</p>
+            </aside>
+          </section>
+
+          <section>
+            <h1 class="r-fit-text">1962 - L'idée révolutionnaire</h1>
+            <h1>✈</h1>
+            <blockquote>
+              Un réseau de communication pour les dominer tous
+            </blockquote>
+            <aside class="notes">
+              <p>
+                En pleine guerre froide, l'US Air Force demande à un petit
+                groupe de chercheurs de créer un réseau de communication capable
+                de résister à une attaque nucléaire
+              </p>
+              <p>
+                Même si une machine était détruite, le système peut continuer à
+                fonctionner
+              </p>
+            </aside>
+          </section>
+
+          <section
+            data-background-image="./img/arpanet.jpg"
+            data-background-opacity="0.2"
+          >
+            <h1>1969 - ARPANET</h1>
+            <h1>🏫</h1>
+
+            <aside class="notes">
+              <p>Le but est de relier 4 universités Américaines.</p>
+              <p>considéré comme le précurseur d'internet</p>
+              <p>Rien à voir avec l'armée</p>
+              <ul>
+                <li>si un ou plusieurs nœuds tombaient le réseau continuait à fonctionner sans problème.</li>
+              <li>La communication entre machines se faisait sans machine centralisée.</li>
+            </ul>
+            </aside>
+          </section>
+
+          <section data-background-image="" data-background-opacity="0.2">
+            <h1 class="r-fit-text">1971 - Le premier mail</h1>
+            <p>👨🏻 🖥 ➡ 📧 🖥 👩🏽</p>
+            <blockquote>QWERTYUIOP</blockquote>
+            <p style="font-style: italic; text-align: right">Ray Tomlinson</p>
+          </section>
+
+          <section
+            data-background-image="./img/1 ig0W49EXUV6mvDM_0-Yw9A.jpg"
+            data-background-opacity="0.2"
+          >
+            <h1 class="r-fit-text">1976 - Le protocole TCP</h1>
+            <p>📶</p>
+            <blockquote>Tous les jours, vous "parlez" le TCP</blockquote>
+          </section>
+
+          <section data-background-image="" data-background-opacity="0.2">
+            <h1 class="r-fit-text">1984 - le système DNS</h1>
+            <p>📬</p>
+            <blockquote>Domain Name System</blockquote>
+            <p>ou la création de "La Poste" virtuelle</p>
+            <p style="position:absolute;bottom:-200px">1000 💻 connectés </p>
+          </section>
+
+          <section data-background-image="" data-background-opacity="0.2">
+            <h1>1987</h1>
+            <p>📈</p>
+            <p>+10'000 💻 connectés </p>
+          </section>
+
+
+          <section data-background-image="" data-background-opacity="0.2">
+            <h1>1989</h1>
+            <p>📈</p>
+            <p>+100'000 💻 connectés </p>
+          </section>
+
+
+          <section
+            data-background-image="./img/premierSiteWeb.png"
+            data-background-opacity="0.2"
+          >
+            <h1 class="r-fit-text">1990 - La naissance du World Wide Web</h1>
+            <p>🌐</p>
+            <blockquote>HTTP + HTML</blockquote>
+            <p>ARPANET ➡ Internet</p>
+            <p style="font-style: italic; text-align: right">
+              Tim Berners-Lee - CERN
+            </p>
+          </section>
+
+          <section
+            data-background-image="./img/premierSiteWeb.png"
+            data-background-opacity="1"
+            data-background-size="contain"
+          >
+            <div
+              style="
+                position: absolute;
+                width: 40%;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(255, 255, 255, 0.9);
+                color: rgb(59, 59, 59);
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+            >
+              <h3>1990 - Le premier site web</h3>
+              <p style="font-style: italic; text-align: right">
+                Tim Berners-Lee - CERN
+              </p>
+            </div>
+          </section>
+
+          <section data-background-image="" data-background-opacity="0.2">
+            <h1>1994</h1>
+            <p>📈</p>
+            <p>+1'000'000 💻 connectés </p>
+          </section>
+
+          <section data-background-image="" data-background-opacity="0.2">
+            <h1>1996</h1>
+            <p>📈</p>
+            <p>+36'000'000 💻 connectés </p>
+          </section>
+
+          <section data-background-image="" data-background-opacity="0.2">
+            <h1>2000</h1>
+            <p>📈</p>
+            <p>+368'340'000 💻 connectés </p>
+          </section>
+
+          <section data-background-opacity="0.2" id="fragments">
+            <h1 class="r-fit-text">2000 - L'explosion de la bulle internet</h1>
+            <p>💥</p>
+            <p class="fragment">
+              La chasse aux innovations technologique fait rage
+            </p>
+            <p class="fragment">Les entreprises du web se développent</p>
+            <p class="fragment">La bourse s'affole</p>
+            <p class="fragment">Les géants du web survivent</p>
+          </section>
+          <section>
+            <h2>Et maintenant</h2>
+            <h3>❔</h3>
+          </section>
+        </section>
+        <section>
+          <table>
+            <tr>
+              <td class="fragment grow" data-fragment-index="1">📳</td>
+              <td class="fragment grow" data-fragment-index="2">📂</td>
+              <td class="fragment grow" data-fragment-index="3">📰</td>
+              <td class="fragment grow" data-fragment-index="4">🛠</td>
+              <td class="fragment grow" data-fragment-index="5">🔄</td>
+              <td class="fragment grow" data-fragment-index="6">🚶🏽‍♀️</td>
+            </tr>
+          </table>
+          <div
+            style="
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+            "
+            class="fragment fade-in-then-out"
+            data-fragment-index="1"
+          >
+            <blockquote>+24'000'000'000 de préiphériques connectés</blockquote>
+            <p>(presque) Tout le monde possède un ou plusieurs périphériques
+            connectés</p>
+            </div>
+          <p
+            style="
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+            "
+            class="fragment fade-in-then-out"
+            data-fragment-index="2"
+          >
+            29 Teraoctet de données sont publiées chaque seconde à travers le
+            monde
+          </p>
+          <p
+            style="
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+            "
+            class="fragment fade-in-then-out"
+            data-fragment-index="3"
+          >
+            L'information est omniprésente
+          </p>
+          <p
+            style="
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+            "
+            class="fragment fade-in-then-out"
+            data-fragment-index="4"
+          >
+            Des milliards d'applications web et mobile sont à notre disposition
+          </p>
+          <p
+            style="
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+            "
+            class="fragment fade-in-then-out"
+            data-fragment-index="5"
+          >
+            La société, l'économie et la politique évoluent avec les
+            technologies digitales
+          </p>
+          <p
+            style="
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+            "
+            class="fragment fade-in"
+            data-fragment-index="6"
+          >
+            Ces technologies digitales nous accompagne
+            <span class="fragment highlight-red">partout</span>
+          </p>
+        </section>
+        <section>
+          <section
+            data-background-image="https://i.giphy.com/xT0xeJpnrWC4XWblEk.gif"
+            data-background-opacity="0.2"
+          >
+            <h2>Comprenons-nous vraiment comment cela fonctionne ?</h2>
+            <p>Ou sommes-nous de simples consommateurs ?</p>
+          </section>
+          <section>
+            <h2>Comment utiliser le digital à notre avantage ?</h2>
+            <p>et aborder la transition numérique de la meilleure manière</p>
+          </section>
+          <section>
+            <h1>
+              En devenant
+              <span class="fragment highlight-red">actrices et acteurs</span> de
+              cette transition numérique
+            </h1>
+          </section>
+        </section>
+
+        <section
+          data-background-iframe="https://www.mentimeter.com/s/32beb1753214111deac706b9d00d5b62/e3cd1da1b7c6"
+          data-preload
+          data-background-interactive
+        ></section>
+        
+        <section
+          data-background-video="img/countdown-10min.mp4"
+          data-background-cover="cover"
+          data-preload
+        >
+          <div
+            style="
+              position: absolute;
+              width: 20%;
+              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                0 5px 25px rgba(0, 0, 0, 0.2);
+              background-color: rgba(255, 255, 255, 0.9);
+              color: rgb(59, 59, 59);
+              padding: 20px;
+              font-size: 20px;
+              text-align: left;
+              bottom: -600px;
+            "
+          >
+            <h2 style="font-style: italic; text-align: right">PAUSE</h2>
+          </div>
+        </section>
+
+        <section data-background="">
+          <h1>Welcome back !</h1>
+        </section>
+
+        <section data-background="">
+          <h1 class="r-fit-text">
+            En pratique, devenir expert-e du monde digital c'est...
+          </h1>
+          <p class="fragment fade-down">
+            Apprendre de nouveaux
+            <span class="fragment highlight-blue">languages</span> (HTML, CSS,
+            Javascript, PHP, ...)
+          </p>
+          <p class="fragment fade-down">
+            Voir et comprendre
+            <span class="fragment highlight-blue"
+              >"le dessous des interfaces"</span
+            >
+          </p>
+          <p class="fragment fade-down">
+            Comprendre comment l'être humain
+            <span class="fragment highlight-blue">intéragit</span> avec la
+            technologie
+          </p>
+          <p class="fragment fade-down">
+            Savoir comment
+            <span class="fragment highlight-blue">communiquer un message</span>,
+            à qui, sous quelle forme, et pourquoi
+          </p>
+          <p class="fragment fade-down">
+            Développer un
+            <span class="fragment highlight-blue">regard critique</span>
+          </p>
+        </section>
+
+        <section>
+          <h1>Cas pratique</h1>
+          <h2>
+            <span
+              class="fragment fade-out"
+              data-fragment-index="1"
+              style="
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+              "
+              >UX</span
+            ><span
+              class="fragment fade-in"
+              data-fragment-index="1"
+              style="
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+              "
+              >User eXperience</span
+            >
+          </h2>
+        </section>
+
+        <section
+          data-background-image="img/ux-ui-vf-678x1024.png"
+          data-background-size="contain"
+        ></section>
+
+        <section
+          data-background-iframe="https://userinyerface.com"
+          data-background-opacity="0.2"
+        >
+          <h1>Rendez-vous sur le site</h1>
+          <h3>UserInyerface.com</h3>
+          <p>
+            Pendant 10 minutes, tentez de terminer le jeu et
+            <b>notez tous les éléments qui ne vont PAS dans l'interface</b>
+          </p>
+        </section>
+
+        <section
+          data-background-video="img/countdown-10min.mp4"
+          data-background-cover="cover"
+          data-preload
+        ></section>
+
+        <section
+          data-background-iframe="https://userinyerface.com"
+        >
+        </section>
+
+        <section>
+          <section>
+            <h1>Critères ergonomiques</h1>
+            <h2>Les heuristiques de Nielsen</h2>
+          </section>
+          <section>
+            <blockquote>
+              👴🏻 Jakob Nielsen est un expert dans le domaine de L'<span
+                class="fragment highlight-red"
+                >ergonomie et de l'utilisabilité des sites web</span
+              >. Il est le cofondateur, avec Donald Norman, du
+              <span class="fragment highlight-red">Nielsen Norman Group</span>,
+              une société de conseil et recherche
+              <span class="fragment highlight-red">dans le domaine du UX</span>,
+              dont le site internet est une vraie pépite pour un designer qui
+              cherche à se documenter.
+            </blockquote>
+            <p style="font-style: italic; text-align: right">
+              <a
+                href="https://openclassrooms.com/fr/courses/5248981-auditez-lexperience-utilisateur/5634526-utilisez-les-heuristiques-de-nielsen"
+                >OpenClassRoom</a
+              >
+            </p>
+          </section>
+          <section>
+            <blockquote>
+              💬 Les heuristiques de Nielsen se composent en 10 critères, qui
+              attestent la bonne ergonomie et la bonne utilisabilité d'une
+              interface
+            </blockquote>
+          </section>
+          <section>
+            <p class="fragment fade-in-top" style="font-style: italic;font-size:24px;">
+              PS : Nous ne feront qu'effleurer le sujet...
+            </p>
+            <p class="fragment fade-in-top" style="font-style: italic;font-size:24px;">
+              PS2 : les exemples proviennent de https://www.studiocassette.com
+            </p>
+            
+          </section>
+
+          <section>
+            <h2>Critère N°1</h2>
+            <p>L’état du système est visible</p>
+            <p>🚦</p>
+            <img src="img/crit1.webp" />
+            <aside class="notes">
+
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°2</h2>
+            <p>Le système correspond au monde réel</p>
+            <p>🚧</p>
+            <img src="img/crit2.webp" />
+
+            <aside class="notes">
+              
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°3</h2>
+            <p>L'utilisateur a un sentiment de contrôle, il est libre de ses actions</p>
+            <p>⏪▶</p>
+            <img src="img/crit3.webp" height="350px"/>
+
+            <aside class="notes">
+              Si l’utilisateur choisit par erreur une fonction, il peut facilement revenir sur ses pas, annuler et refaire. Le système est tolérant, flexible et les fonctions disposent d'une sortie de secours clairement libellée et qui ne l’oblige pas à passer par de multiples dialogues.
+            </aside>
+          </section>
+
+          <section data-background-image="img/Screenshot_1.png"
+          data-background-opacity="0.2">
+            <h2>Critère N°4</h2>
+            <p>Le système respecte les standards</p>
+            <p>🐍</p>
+            <aside class="notes">
+              
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°5</h2>
+            <p>Le sytème prévient les erreurs</p>
+           <p>🛑</p>
+           <img src="img/crit5.webp" />
+
+            <aside class="notes">
+              Le système prévient les erreurs de l’utilisateur et les problèmes qu’il pourrait rencontrer. Il désactive ou masque les fonctionnalités non compatibles avec les actions ou les choix qu’il a réalisé.
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°6</h2>
+            <p>Reconnaître plutôt que se souvenir</p>
+            <p>👶🏻 ➡ 👵🏼 ⁉</p>
+            <img src="img/crit6.webp" />
+
+            <aside class="notes">
+              L’utilisateur n'a pas à se souvenir d'une information d'une séquence de dialogue à une autre. Les objets, les actions et les options sont visibles. Les instructions pour utiliser le système sont explicites et accessibles.
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°7</h2>
+            <p>Le système est flexible dans son utilisation</p>
+            <p>🚗 🛵 🛴 🚲 🚆</p>
+            <img src="img/crit7.webp" height="auto" />
+
+            <aside class="notes">
+              Le système permet à l'utilisateur d'utiliser des raccourcis. Il lui permet d'accélérer les interactions, notamment s’il est un utilisateur expérimenté. Il se rappelle de ses actions et des informations qu’il a déjà fournies dans le cas par exemple d’une saisie de coordonnées dans un panier d’achat. Il ne lui demande pas de les réaliser ou de les saisir plusieurs fois. Si l’utilisateur l'utilise de manière récurrente, il peut être personnalisé.
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°8</h2>
+            <p>Esthétique et design minimaliste</p>
+            <p>🅰➡🅱</p>
+            <img src="img/crit8.png" />
+
+            <aside class="notes">
+              
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°9</h2>
+            <p>Gestion et identification simple des erreurs</p>
+            <p>👮🏼‍♀️</p>
+            <img src="img/crit9.webp" />
+
+            <aside class="notes">
+              Les messages d'erreur sont formulés en langage clair (pas des codes), et indiquent précisément le problème. Ils suggèrent à l’utilisateur une solution pour le résoudre.
+            </aside>
+          </section>
+
+          <section>
+            <h2>Critère N°10</h2>
+            <p>Aide et documentation</p>
+            <p>📄</p>
+            <img src="img/crit10.webp" />
+
+            <aside class="notes">
+              
+            </aside>
+          </section>
+        </section>
+
+        <section>
+          <section>
+          <p>l'UX n'est qu'<b>un seul domaine</b> de compétence d'un-e ingénieur-e des médias</p>
+          <p>Une seule "lame" de son "couteau suisse"</p>
+        </section>
+        <section>
+          <p>L'ingénieur-e en média est un-e <b>généraliste</b></p>
+          <p class="fragment fade-in">mais <b>expert-e</b> dans la compréhension de l'écosystème digital</p>
+          <p class="fragment fade-in" >Capable d'analyser, concevoir, créer et diffuser</p>
+          <p class="fragment fade-in" style="font-size:32px;font-style:italic">Son parcours définira son ou ses domaines d'expertise dans le monde du digital</p>
+        </section>
+        
+        <section>
+          <h3>et plus encore...</h3>
+          <p>Le digital faisant partie intégrante de nos vies privées et professionnelles, <br><b>l'ingénieur-e des médias</b><br> saura trouver sa place quelque soient ses centres d'intérêts !</p>
+        </section>
+        </section>
+        <section
+          data-background-iframe="https://www.mentimeter.com/s/32beb1753214111deac706b9d00d5b62/ddec37159550"
+          data-preload
+          data-background-interactive
+        ></section>
+
+        <section
+        data-background-image="https://i.giphy.com/VZCFpF6sUyoG6l5SrY.gif"
+        data-background-opacity="0.3">
+          <h2>Merci à toutes pour votre attention</h2>
+          <p>Et bonne suite !</p>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealZoom, RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>

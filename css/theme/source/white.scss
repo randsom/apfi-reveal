@@ -12,7 +12,7 @@
 
 
 // Include theme-specific fonts
-@import url(./fonts/source-sans-pro/source-sans-pro.css);
+@import url(./fonts/inter-web/inter.css);
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -22,12 +22,12 @@ $mainColor: #222;
 $headingColor: #222;
 
 $mainFontSize: 42px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Inter', Helvetica, sans-serif;
+$headingFont: 'Inter', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
-$headingFontWeight: 600;
+$headingTextTransform: none;
+$headingFontWeight: 800;
 $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
